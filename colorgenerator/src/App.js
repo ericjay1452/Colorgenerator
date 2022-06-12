@@ -1,16 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react"
+import {SearchForm} from "./Component/SearchForm"
 function App() {
+
+ const MouseEffect = (bcg) =>{
+    document.body.style.backgroundColor=`rgb(${bcg})`;
+  
+}
     return (
-      <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-        <p className="text-3xl text-gray-700 font-bold mb-5">
-          Welcome!
-        </p>
-        <p className="text-amber-300 text-lg">
-          React and Tailwind CSS in action
-        </p>
+      <>
+      <div className="w-full py-4 relative block">
+        <section className="w-6/12 mx-auto mb-6">
+          <h2 className="text-center text-2xl">Color Generator </h2>
+        </section>
+         <SearchForm MouseEffect = {MouseEffect}/>
       </div>
+      </>
     );
 
 }

@@ -72,3 +72,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Solving ` 'Unchecked runtime.lastError: The message port closed before a response was received' chrome issue?`
 
 When running your app on google chrome, you might encouter the above error in your chrome console, don't panic, the best way to solve the above error is by disabling some Extensions in your chrome, by doing so, the error will clear off.
+
+### TailWind
+Used Tailwind css for my Styling..
+Checkout tailwind documentation for more info : [https://tailwindcss.com/docs/installation]
+
+### Note: 
+After cloning this project, on your terminal navigate to the root folder of this Project then, install all the independencies by using `npm install`
+
+### Credit 
+This project was first created by JohnSmilga in his ReactJs CrashCourse..
+But, decided to add some functionalities.
